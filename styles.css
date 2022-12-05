@@ -1,0 +1,153 @@
+ body{
+        font-family: 'Russo One', sans-serif;
+        background: rgba(247,241,229,255);
+        background-repeat:no-repeat ;
+        height: 100vh;
+        
+}
+
+
+div{
+        width: 100%;
+        height: 100%;
+        font-family: 'Russo One', sans-serif;
+    
+}
+
+ul{list-style-type: none;
+        display: flex;
+        margin-top: 268px;
+        text-decoration: none;
+       
+}
+*{
+        font-family: 'Russo One', sans-serif;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+}
+li{    display: flex;
+        justify-content: space-between;
+        padding-inline: 86px;
+        height: 66px;
+text-decoration: none;}
+
+h1{        
+        border: solid 6px rgb(218, 128, 232);
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        color: rgb(218 128 232 / 68%);
+        margin-top: 41px;}
+
+.menu{
+        display: flex;
+        justify-content: center;}
+
+.bloc{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-color: #00000094;
+}        
+
+.bloc video{
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        z-index: -100;
+}
+.bloc ::before{
+       position: absolute;
+       content: "";
+       height: 100%;
+       width: 100%;
+   
+       z-index: -99;
+}
+
+button{
+        border-radius: 16px;
+        text-decoration: none;
+        padding: 23px;
+        background: rgb(218 128 232 / 73%);
+}
+
+.nav{
+        margin-top: -250px;
+        background: #8660c9c4
+        ;
+        display: flex;
+        height: 43vh;
+        justify-content: space-around;
+}
+
+.Kirua{
+        background: rgba(247,241,229,255);
+        display: flex;
+    }
+    .Kirua2{
+        background: rgba(247,241,229,255);
+        display: flex;
+    }
+
+    .button-quizz{
+
+        border-radius: 16px;
+        text-decoration: none;
+        padding: 23px;
+        background: rgba(193, 74, 212, 0.703);
+        color: #8660c9c4;
+        outline: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+  }
+  h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #0e0e0e;
+margin-top: 80px;}
+
+.pquizz{height: auto;
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-weight: 200;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #0e0e0e;
+margin-top: 20px;
+}
+        
+ .global-container {
+                max-width: 800px;
+                margin: 0 auto;
+              }
+ .question-block {
+                padding: 25px;
+                margin: 20px 0;
+                border-radius: 5px;
+                background: #f1f1f1;
+                box-shadow: 0 5px 10px rgba(104,104,104,0.5);}
+
+                .question-block label, .question-block input[type="radio"]{
+                        cursor: pointer;
+                      }
+                      
+                      .question-block label {
+                        font-size: 20px;
+                      }
+                      
+                      .question-block input[type="radio"]{
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 15px;
+                      }
+                      .question-block h4 {
+                        font-size: 24px;
+                        font-weight: 500;
+                        margin-bottom: 20px;
